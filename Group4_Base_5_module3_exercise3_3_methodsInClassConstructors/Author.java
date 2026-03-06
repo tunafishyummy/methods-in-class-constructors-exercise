@@ -11,6 +11,6 @@ public class Author {
         this.firstName = firstName;
     }
     public int getAuthorId() {return authorId;}
-    public String getlastName() {return lastName;}
     public String getfirstName() {return firstName;}
+    public String getlastName() {return lastName;}
 }
