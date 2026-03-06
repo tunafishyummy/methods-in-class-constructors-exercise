@@ -18,8 +18,13 @@ public class Runner {
 
     int bookId = Integer.parseInt(JOptionPane.showInputDialog("Enter Book ID:"));
     String title = JOptionPane.showInputDialog("Enter Book Title:");
-    
+    String ISBN = JOptionPane.showInputDialog("Enter Book ISBN:");
+    String Category = JOptionPane.showInputDialog("Enter Book Category:");
+
     //Book Object
     Book book1 = new Book(bookId, title, ISBN, Category);
+
+    //Author Object
+    Author author1 = new Author(authorId, lastName, firstName);
 }
 }
