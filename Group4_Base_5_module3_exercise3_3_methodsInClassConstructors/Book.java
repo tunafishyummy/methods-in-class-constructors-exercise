@@ -12,4 +12,8 @@ public class Book {
         this.ISBN = ISBN;
         this.category = category;
 }
+public int getbookId() {return bookId;}
+public String getTitle() {return title;}
+public String getISBN() {return ISBN;}
+public String getCategory() {return category;}
 }
