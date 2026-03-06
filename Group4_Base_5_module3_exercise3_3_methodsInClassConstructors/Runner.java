@@ -1,5 +1,7 @@
 package Group4_Base_5_module3_exercise3_3_methodsInClassConstructors;
 
+import javax.swing.JOptionPane;
+
 /*
 Galang, Patrick James
 Garcia, Dolf Philippe
@@ -12,5 +14,12 @@ Topic: Application of Methods in Class Constructors
 */
 
 public class Runner {
+    public static void main(String[] args) {
+
+    int bookId = Integer.parseInt(JOptionPane.showInputDialog("Enter Book ID:"));
+    String title = JOptionPane.showInputDialog("Enter Book Title:");
     
+    //Book Object
+    Book book1 = new Book(bookId, title, ISBN, Category);
+}
 }
