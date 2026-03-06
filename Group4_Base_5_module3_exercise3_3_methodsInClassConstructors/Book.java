@@ -6,7 +6,7 @@ public class Book {
     String ISBN;
     String category;
 
-    public Book(int bookId, String title, String ISBN, String category) {
+    public Book(int bookId, String title, String ISBN, String category){
         this.bookId = bookId;
         this.title = title;
         this.ISBN = ISBN;
